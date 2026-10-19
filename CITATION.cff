@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "OpenPDH-Bench: an open, equilibrium-referenced benchmark of propane dehydrogenation catalyst performance"
+version: "1.0.0"
+date-released: "2026-10-19"
+authors:
+  - family-names: "Lambert"
+    given-names: "Somtochukwu"
+    affiliation: "Independent Researcher, College Station, Texas, USA"
+    orcid: "https://orcid.org/0009-0008-1386-6141"
+    email: "somto.lambert@gmail.com"
+license: CC-BY-4.0
+repository-code: "https://github.com/somtolambert/openpdh-bench"
+abstract: >-
+  A harmonized, openly licensed dataset of non-oxidative propane dehydrogenation
+  catalyst performance extracted from the peer-reviewed literature, with each
+  reported conversion placed against the single-reaction equilibrium limit
+  computed from public-domain NASA thermodynamic data. Records catalyst
+  composition, temperature and its measurement basis, pressure, feed,
+  space velocity, conversion, selectivity, deactivation and heating mode.
+keywords:
+  - propane dehydrogenation
+  - propylene
+  - heterogeneous catalysis
+  - benchmark
+  - thermodynamic equilibrium
+  - electrified heating
+  - open data

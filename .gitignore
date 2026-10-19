@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env
+*.pem
+.venv/
+venv/
+.DS_Store
+*.tar
+scratch/
+data/raw/literature/
+maintainer_notes/

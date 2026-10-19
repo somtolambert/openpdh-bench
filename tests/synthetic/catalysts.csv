@@ -1,0 +1,3 @@
+catalyst_id,source_id,label_in_paper,family,active_elements,loading_basis,support,synthesis,pretreatment
+T0001-C01,T0001,PtSn/Al2O3 (synthetic),Pt-Sn,Pt:0.5;Sn:1.0,nominal,gamma-Al2O3,,
+T0002-C01,T0002,Pt/C (synthetic),Pt,Pt:1,nominal,carbon,,

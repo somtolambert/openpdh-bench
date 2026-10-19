@@ -1,0 +1,60 @@
+{
+  "equilibrium": {
+    "thermo_source": "NASA TM-4513 (McBride, Gordon, Reno 1993) 7-term polynomials",
+    "dH_rxn_298_kJ": 124.4,
+    "dG_rxn_298_kJ": 86.5,
+    "T_Kp_equals_1_C": 660.0,
+    "X_eq_pure_1bar": {
+      "500": 17.4,
+      "550": 31.0,
+      "600": 48.9,
+      "650": 67.4,
+      "700": 81.5
+    },
+    "X_eq_10pct_1bar": {
+      "500": 43.0,
+      "550": 63.9,
+      "600": 80.8,
+      "650": 90.9
+    },
+    "X_eq_H2_1to1_1bar": {
+      "550": 16.5,
+      "600": 35.4,
+      "650": 57.6
+    },
+    "qa_checks_passed": 18,
+    "qa_checks_total": 18,
+    "reference_grid_rows": 420
+  },
+  "dataset": {
+    "n_sources": 17,
+    "n_catalysts": 51,
+    "n_measurements": 153,
+    "n_errors": 0,
+    "n_warnings": 5,
+    "n_above_eq_flags": 3,
+    "n_runs_with_kd_std": 36,
+    "by_heating_mode": {
+      "induction": 2,
+      "conventional": 143,
+      "radio_frequency": 8
+    },
+    "by_family": {
+      "Pt-Sn": 81,
+      "Pt": 24,
+      "Pt-Ga": 13,
+      "GaOx": 2,
+      "ZnOx": 3,
+      "Zr": 3,
+      "CrOx": 3,
+      "Sn": 1,
+      "Pt-In": 6,
+      "Pt-other": 2,
+      "Pt-Zn": 12,
+      "Co": 3
+    },
+    "n_sources_verified": 17,
+    "n_quoted_equilibria": 11,
+    "n_quoted_equilibria_off_by_more_than_2pp": 5
+  }
+}

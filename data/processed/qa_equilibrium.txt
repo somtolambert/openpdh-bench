@@ -1,0 +1,24 @@
+QA report: equilibrium calculator (code/pdh_equilibrium.py)
+Plain language: every line should say PASS. A FAIL means the physics ceiling cannot be trusted.
+
+PASS  dfH_C3H8_kJ vs NIST: NASA -104.68 vs NIST -104.70 (tol 1.0)
+PASS  dfH_C3H6_kJ vs NIST: NASA 19.71 vs NIST 20.41 (tol 1.0)
+PASS  S298_C3H6 vs East 1997: NASA 266.67 vs 266.82 J/mol/K
+PASS  reaction enthalpy 298 K is ~124 kJ/mol (strongly endothermic): 124.4 kJ/mol
+PASS  Kp 500 C vs independent library (chemicals/thermo): NASA 0.0311 vs indep 0.0300 (3.9%); X_eq pure 1 bar 17.4% vs 17.1%
+PASS  Kp 550 C vs independent library (chemicals/thermo): NASA 0.1061 vs indep 0.1028 (3.2%); X_eq pure 1 bar 31.0% vs 30.5%
+PASS  Kp 600 C vs independent library (chemicals/thermo): NASA 0.3148 vs indep 0.3073 (2.4%); X_eq pure 1 bar 48.9% vs 48.5%
+PASS  Kp 650 C vs independent library (chemicals/thermo): NASA 0.8307 vs indep 0.8171 (1.7%); X_eq pure 1 bar 67.4% vs 67.1%
+PASS  solver vs closed form, 450 C, 1.0 bar: 0.087566 vs 0.087566
+PASS  solver vs closed form, 450 C, 0.2 bar: 0.192868 vs 0.192868
+PASS  solver vs closed form, 600 C, 1.0 bar: 0.489310 vs 0.489310
+PASS  solver vs closed form, 600 C, 0.2 bar: 0.781981 vs 0.781981
+PASS  solver vs closed form, 700 C, 1.0 bar: 0.815463 vs 0.815463
+PASS  solver vs closed form, 700 C, 0.2 bar: 0.953133 vs 0.953133
+PASS  dilution raises X_eq: 600 C
+PASS  pressure lowers X_eq: 600 C
+PASS  H2 co-feed lowers X_eq: 600 C
+PASS  X_eq rises with T: 400-750 C
+
+18 of 18 checks passed.
+Reference grid rows: 420

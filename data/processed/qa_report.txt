@@ -1,0 +1,29 @@
+QA report: extracted catalyst data
+Plain language: ERROR must be fixed before release. WARN needs a look. FLAG means a result sits above the physics ceiling; check the paper. INFO means a paper quotes an equilibrium value that differs from the single-reaction ceiling.
+
+n_sources: 17
+n_catalysts: 51
+n_measurements: 153
+n_errors: 0
+n_warnings: 5
+n_above_eq_flags: 3
+n_runs_with_kd_std: 36
+by_heating_mode: {'induction': 2, 'conventional': 143, 'radio_frequency': 8}
+by_family: {'Pt-Sn': 81, 'Pt': 24, 'Pt-Ga': 13, 'GaOx': 2, 'ZnOx': 3, 'Zr': 3, 'CrOx': 3, 'Sn': 1, 'Pt-In': 6, 'Pt-other': 2, 'Pt-Zn': 12, 'Co': 3}
+n_sources_verified: 17
+n_quoted_equilibria: 11
+n_quoted_equilibria_off_by_more_than_2pp: 5
+
+FLAG  measurements/S0006-C01-M01: conversion 36.0% exceeds equilibrium 29.9% at 550.0 C (basis: unreported, heating: conventional; propylene yield 27.4%)
+FLAG  measurements/S0006-C03-M01: conversion 34.0% exceeds equilibrium 29.9% at 550.0 C (basis: unreported, heating: conventional; propylene yield 31.6%)
+FLAG  measurements/S0006-C04-M01: conversion 32.0% exceeds equilibrium 29.9% at 550.0 C (basis: unreported, heating: conventional; propylene yield 31.4%)
+WARN  measurements/S0006-C04-M03: stated WHSV 17.7 vs computed 35.41 from flow and mass (>15% apart)
+WARN  measurements/S0005-C01-M01: reported kd 0.0024 h-1 vs 0.1436 h-1 recomputed from the run's first and last points (ratio 60); check the paper's units and time basis
+WARN  measurements/S0005-C02-M01: reported kd 0.0011 h-1 vs 0.0890 h-1 recomputed from the run's first and last points (ratio 81); check the paper's units and time basis
+WARN  measurements/S0005-C03-M01: reported kd 0.0013 h-1 vs 0.1043 h-1 recomputed from the run's first and last points (ratio 80); check the paper's units and time basis
+WARN  measurements/S0005-C04-M01: reported kd 0.0014 h-1 vs 0.1018 h-1 recomputed from the run's first and last points (ratio 73); check the paper's units and time basis
+INFO  quoted_equilibria/S0001-Q01: paper quotes 27.0% but single-reaction equilibrium is 24.8% (530.0 C, 1.01325 bar, y_C3H8=1.0, y_H2=0.0)
+INFO  quoted_equilibria/S0001-Q02: paper quotes 52.0% but single-reaction equilibrium is 56.3% (620.0 C, 1.01325 bar, y_C3H8=1.0, y_H2=0.0)
+INFO  quoted_equilibria/S0004-Q06: paper quotes 52.7% but single-reaction equilibrium is 69.3% (600.0 C, 1.01325 bar, y_C3H8=0.2308, y_H2=0.0)
+INFO  quoted_equilibria/S0004-Q07: paper quotes 40.8% but single-reaction equilibrium is 44.9% (590.0 C, 1.01325 bar, y_C3H8=1.0, y_H2=0.0)
+INFO  quoted_equilibria/S0008-Q01: paper quotes 60.0% but single-reaction equilibrium is 67.7% (600.0 C, 1.01325 bar, y_C3H8=0.0798, y_H2=0.1022)

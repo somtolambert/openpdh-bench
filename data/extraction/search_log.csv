@@ -1,0 +1,2 @@
+search_date,database,query,filters,n_hits,n_screened,n_included,notes
+2026-10-19,Europe PMC REST API,"(TITLE:""propane dehydrogenation"" OR ABSTRACT:""propane dehydrogenation"") AND OPEN_ACCESS:y AND HAS_FT:y",open access with full text,108,,,hit list in data/raw/literature/europepmc_hits.csv (not published)

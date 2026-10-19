@@ -1,0 +1,11 @@
+pmcid,doi,decision,reason,date
+PMC10881033,10.1126/sciadv.adi8219,deferred,"Microwave vs conventional PtSn/SiO2. Main text gives rates, STY and selectivity only; conversions are in figures and SI. Queue for figure digitization (high priority: electrified heating).",2026-10-19
+PMC8549045,10.1021/jacsau.1c00287,deferred,"Electric-field-assisted (DC current) PDH at 250-330 C; only yields in main text. Not a heating mode; needs a scope decision (separate category).",2026-10-19
+PMC10793213,10.1039/d3sc04310j,deferred,"Ca-promoted PtSn/Al2O3. Conversions only in figures; kd values in text. Queue for digitization.",2026-10-19
+PMC5697674,10.1002/anie.201701115,deferred,"Table 1 has conversions at 680 C with steam, but propane flow/feed composition only in SI (main-text body not in archive). Need SI.",2026-10-19
+PMC9114386,10.1038/s41467-022-30522-1,deferred,"PtSn@MFI; main text is mechanism/simulation; performance data in figures/SI.",2026-10-19
+PMC8152552,10.1039/d0sc00690d,deferred,"VOx/ZrO2 non-oxidative PDH; conversions only in figures.",2026-10-19
+PMC6645419,10.1021/acsomega.8b00862,deferred,"Co-Zr/SiO2; text gives TOF and selectivity, conversion only as below 10%. Needs figures.",2026-10-19
+PMC11320177,10.1039/d4ey00123k,excluded,"Fe/BN tested in N2O-assisted oxidative dehydrogenation: outside scope (direct PDH only).",2026-10-19
+PMC8479774,10.1021/jacsau.1c00212,deferred,"PtGa/SiO2; no conversion values in main text. Needs figures/SI.",2026-10-19
+PMC11986894,10.1021/acsami.5c00243,deferred,"Operando luminescence thermometry during hydrocarbon conversion: method paper on catalyst temperature measurement; relevant to temperature-basis policy, few PDH conversion values in text.",2026-10-19

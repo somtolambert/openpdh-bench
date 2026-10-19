@@ -1,0 +1,9 @@
+# Equilibrium calculator and QA: Python 3.9+ standard library only.
+# Figures:
+matplotlib>=3.7
+# Only needed to re-extract the NASA coefficients (code/01_fetch_thermo.py):
+cantera==3.2.0
+pyyaml>=6
+# Optional independent cross-check in code/02_equilibrium_reference.py:
+thermo>=0.4
+scipy>=1.10

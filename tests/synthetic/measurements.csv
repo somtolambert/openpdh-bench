@@ -1,0 +1,6 @@
+measurement_id,catalyst_id,location,value_origin,heating_mode,temperature_C,temperature_basis,pressure_bar,pressure_assumed,y_C3H8_in,y_H2_in,y_C3H6_in,diluent,whsv_h-1,whsv_source,ghsv_h-1,catalyst_mass_mg,total_flow_mL_min,time_on_stream_h,conversion_pct,conversion_basis,selectivity_C3H6_pct,selectivity_basis,yield_C3H6_pct,carbon_balance_pct,kd_reported_h-1,kd_definition,test_duration_h,run_label,regeneration_cycle,extractor_flags,notes
+T0001-C01-M01,T0001-C01,Table 1 row 1,table,conventional,600,bed_thermocouple,1.01325,TRUE,0.1,0,,N2,5.9,,,100,50,0.5,40,carbon_balance_products,98,carbon_basis,39.2,,,,,Fig2-stability,,,
+T0001-C01-M02,T0001-C01,Table 1 row 2,table,conventional,600,bed_thermocouple,1.01325,TRUE,0.1,0,,N2,,,,100,50,10,30,carbon_balance_products,99,carbon_basis,,,,,,Fig2-stability,,,
+T0001-C01-M03,T0001-C01,Table 1 row 3,table,microwave,600,unreported,1.01325,TRUE,0.1,0,,N2,,,,100,50,1,95,carbon_balance_products,90,carbon_basis,60,,,,,,,,
+T0002-C01-M04,T0002-C01,Table 1 row 4,table,conventional,600,bed_thermocouple,1.01325,TRUE,0.8,0.5,,N2,,,,100,50,1,20,carbon_balance_products,,carbon_basis,,,,,,,,,
+T9999-C01-M05,T9999-C01,Table 1 row 5,table,conventional,600,bed_thermocouple,1.01325,TRUE,0.1,0,,N2,,,,100,50,1,20,carbon_balance_products,,carbon_basis,,,,,,,,,

@@ -1,0 +1,52 @@
+catalyst_id,source_id,label_in_paper,family,active_elements,loading_basis,support,synthesis,pretreatment
+S0001-C01,S0001,2:1 FeCo@C:Co@C/PtSn,Pt-Sn,Pt:0.35;Sn:0.5,nominal,"FeCo@C + Co@C (carbon-encapsulated magnetic nanoparticles, 2:1)",Pt and Sn deposited on heating agents (procedure in ref 10 of paper),
+S0002-C01,S0002,Pt1.17Sn,Pt-Sn,Pt:4.05;Sn:2.06,measured,SiO2-700,"surface organometallic chemistry: Sn(OSi(OtBu)3)4 grafted, calcined; Pt(allyl)(DIA) grafted","H2, 600 C"
+S0002-C02,S0002,Pt0.68Sn,Pt-Sn,Pt:2.31;Sn:2.09,measured,SiO2-700,"surface organometallic chemistry: Sn(OSi(OtBu)3)4 grafted, calcined; Pt(allyl)(DIA) grafted","H2, 600 C"
+S0002-C03,S0002,Pt0.34Sn,Pt-Sn,Pt:1.17;Sn:2.06,measured,SiO2-700,"surface organometallic chemistry: Sn(OSi(OtBu)3)4 grafted, calcined; Pt(allyl)(DIA) grafted","H2, 600 C"
+S0002-C04,S0002,Pt/SiO2,Pt,Pt:3.96,measured,SiO2-700,surface organometallic chemistry,"H2, 600 C"
+S0003-C01,S0003,SnPt_7MgSiO2,Pt-Sn,Pt:0.5;Sn:0.7,nominal,mesoporous SiO2 pearls + 7% Mg,"sequential wet impregnation (SnCl2 in ethanol, then PtCl4 aqueous), calcined 600 C","600 C: 5% H2/N2 1 h, 5% O2/N2 1 h, H2 1 h"
+S0003-C02,S0003,SnPt_S-500,Pt-Sn,Pt:0.5;Sn:0.7,nominal,sepiolite pellets (calcined 500 C),"sequential wet impregnation (SnCl2 in ethanol, then PtCl4 aqueous), calcined 600 C","600 C: 5% H2/N2 1 h, 5% O2/N2 1 h, H2 1 h"
+S0003-C03,S0003,SnPt_S-Macro,Pt-Sn,Pt:0.5;Sn:0.7,nominal,sepiolite pellets with extra macroporosity,"sequential wet impregnation (SnCl2 in ethanol, then PtCl4 aqueous), calcined 600 C","600 C: 5% H2/N2 1 h, 5% O2/N2 1 h, H2 1 h"
+S0003-C04,S0003,SnPt_10B20S70A,Pt-Sn,Pt:0.5;Sn:0.7,nominal,10% bentonite / 20% sepiolite / 70% gamma-alumina pellets,"sequential wet impregnation (SnCl2 in ethanol, then PtCl4 aqueous), calcined 600 C","600 C: 5% H2/N2 1 h, 5% O2/N2 1 h, H2 1 h"
+S0004-C01,S0004,Pt/DMSN,Pt,Pt:1,nominal,dendritic mesoporous silica nanoparticles (DMSN),impregnation; calcined 500 C 4 h,"10% H2/Ar, 500 C, 4 h"
+S0004-C02,S0004,Pt1Sn1/DMSN,Pt-Sn,Pt:1;Sn:1,nominal,dendritic mesoporous silica nanoparticles (DMSN),impregnation; calcined 500 C 4 h,"10% H2/Ar, 500 C, 4 h"
+S0004-C03,S0004,Pt1Sn2/DMSN,Pt-Sn,Pt:1;Sn:2,nominal,dendritic mesoporous silica nanoparticles (DMSN),impregnation; calcined 500 C 4 h,"10% H2/Ar, 500 C, 4 h"
+S0004-C04,S0004,Pt1Sn3/DMSN,Pt-Sn,Pt:1;Sn:3,nominal,dendritic mesoporous silica nanoparticles (DMSN),impregnation; calcined 500 C 4 h,"10% H2/Ar, 500 C, 4 h"
+S0004-C05,S0004,Pt1Sn4/DMSN,Pt-Sn,Pt:1;Sn:4,nominal,dendritic mesoporous silica nanoparticles (DMSN),impregnation; calcined 500 C 4 h,"10% H2/Ar, 500 C, 4 h"
+S0005-C01,S0005,PtSn/Al2O3,Pt-Sn,Pt:na;Sn:na,unreported,gamma-Al2O3 pellets (Sn co-gelled in boehmite),Sn in alginate-gelled boehmite pellets; H2PtCl6 impregnation,
+S0005-C02,S0005,PtSn/Al2O3-0.4 CA,Pt-Sn,Pt:na;Sn:na,unreported,gamma-Al2O3 pellets (Sn co-gelled in boehmite),Sn in alginate-gelled boehmite pellets; H2PtCl6 impregnation with citric acid competitor,
+S0005-C03,S0005,PtSn/Al2O3-0.8 CA,Pt-Sn,Pt:na;Sn:na,unreported,gamma-Al2O3 pellets (Sn co-gelled in boehmite),Sn in alginate-gelled boehmite pellets; H2PtCl6 impregnation with citric acid competitor,
+S0005-C04,S0005,PtSn/Al2O3-1.2 CA,Pt-Sn,Pt:na;Sn:na,unreported,gamma-Al2O3 pellets (Sn co-gelled in boehmite),Sn in alginate-gelled boehmite pellets; H2PtCl6 impregnation with citric acid competitor,
+S0006-C01,S0006,Pt0.5/SiO2,Pt,Pt:0.5,nominal,SiO2,atomic layer deposition: Pt ALD,"10% H2/Ar, 550 C, 1 h"
+S0006-C02,S0006,Sn0.6Pt0.5/SiO2,Pt-Sn,Pt:0.5;Sn:0.6,nominal,SiO2,"atomic layer deposition: Pt ALD first, then SnOx ALD","10% H2/Ar, 550 C, 1 h"
+S0006-C03,S0006,Pt0.5Sn0.3/SiO2,Pt-Sn,Pt:0.5;Sn:0.3,nominal,SiO2,"atomic layer deposition: SnOx ALD first, then Pt ALD","10% H2/Ar, 550 C, 1 h"
+S0006-C04,S0006,Pt0.5Sn0.6/SiO2,Pt-Sn,Pt:0.5;Sn:0.6,nominal,SiO2,"atomic layer deposition: SnOx ALD first, then Pt ALD","10% H2/Ar, 550 C, 1 h"
+S0006-C05,S0006,Pt0.5Sn1.1/SiO2,Pt-Sn,Pt:0.5;Sn:1.1,nominal,SiO2,"atomic layer deposition: SnOx ALD first, then Pt ALD","10% H2/Ar, 550 C, 1 h"
+S0006-C06,S0006,Pt0.5Sn2.0/SiO2,Pt-Sn,Pt:0.5;Sn:2.0,nominal,SiO2,"atomic layer deposition: SnOx ALD first, then Pt ALD","10% H2/Ar, 550 C, 1 h"
+S0007-C01,S0007,Pt-Sn-K/Al2O3,Pt-Sn,Pt:na;Sn:na;K:na,unreported,theta-Al2O3 balls (ground <0.125 mm),"co-impregnation H2PtCl6, SnCl4, KCl; calcined 500 C","H2, 550 C, 100 min"
+S0008-C01,S0008,PtGa/SiO2,Pt-Ga,Pt:3;Ga:na,nominal,SiO2,pore-filling co-impregnation; intermetallic PtGa (Pt/Ga = 1 atomic),
+S0008-C02,S0008,PtGa-Pb/SiO2 (Pt/Pb = 2),Pt-Ga,Pt:3;Ga:na;Pb:na,nominal,SiO2,PtGa/SiO2 then Pb deposition (Pt/Pb = 2 atomic),
+S0009-C01,S0009,[(SiO)3Ga(XOSi)] (3),GaOx,Ga:na,unreported,SiO2-700,"surface organometallic chemistry: Ga(OSi(OtBu)3)3(THF) grafted, then thermolysis",
+S0010-C01,S0010,ZnO-S-1_1 (oxidatively treated),ZnOx,Zn:na,nominal,"silicalite-1 (S-1_1), physical mixture with ZnO (8 wt% ZnO)",,"air, 550 C, 1 h"
+S0010-C02,S0010,ZnO-S-1_1 (reductively treated),ZnOx,Zn:na,nominal,"silicalite-1 (S-1_1), physical mixture with ZnO (8 wt% ZnO)",,"H2/N2 = 1, 550 C, 1 h"
+S0011-C01,S0011,ZrSi,Zr,Zr:na,unreported,"ZrO2-SiO2 (one-pot, support only)",,
+S0011-C02,S0011,9CrZrSi,CrOx,Cr:9,nominal,ZrO2-SiO2 (one-pot),one-pot sol-gel CrOx-ZrO2-SiO2,
+S0012-C01,S0012,Pt@Sn-MFI,Pt-Sn,Pt:0.4;Sn:na,nominal,"nanosized MFI zeolite (hierarchical, wormhole pores)","one-pot synthesis, Sn/Pt = 3 atomic","10% H2/Ar, 550 C, 2 h"
+S0012-C02,S0012,Pt@MFI,Pt,Pt:0.4,nominal,nanosized MFI zeolite,one-pot synthesis,"10% H2/Ar, 550 C, 2 h"
+S0012-C03,S0012,Sn-MFI,Sn,Sn:0.9,nominal,nanosized MFI zeolite,one-pot synthesis,"10% H2/Ar, 550 C, 2 h"
+S0012-C04,S0012,Pt@Sn-MFI_6,Pt-Sn,Pt:0.4;Sn:na,nominal,nanosized MFI zeolite,"one-pot synthesis, Sn/Pt = 6 atomic","10% H2/Ar, 550 C, 2 h"
+S0012-C05,S0012,PtSn/SiO2,Pt-Sn,Pt:na;Sn:na,nominal,SiO2,conventional impregnation,
+S0012-C06,S0012,PtSn/Al2O3 (commercial mimic),Pt-Sn,Pt:na;Sn:na,nominal,Al2O3,conventional impregnation,
+S0012-C07,S0012,PtSn/MFI,Pt-Sn,Pt:na;Sn:na,nominal,MFI zeolite,conventional impregnation,
+S0013-C01,S0013,"Pt/In-ZSM-5 (1Pt, In/Al = 1.0)",Pt-In,Pt:1;In:na,nominal,ZSM-5 with extra-framework In+ (solid-state In exchange),"IWI of Pt on In-ZSM-5, calcination",
+S0013-C02,S0013,Pt/In-Si-MFI,Pt-In,Pt:na;In:na,nominal,siliceous MFI (Si-MFI),,
+S0014-C01,S0014,PtTi/SiO2,Pt-other,Pt:3.46;Ti:0.59,measured,SiO2-700,surface organometallic chemistry,
+S0014-C02,S0014,PtZn/SiO2,Pt-Zn,Pt:3.13;Zn:1.63,measured,SiO2-700,surface organometallic chemistry,
+S0014-C03,S0014,PtZnTi/SiO2,Pt-Zn,Pt:2.95;Zn:1.53;Ti:0.58,measured,SiO2-700,surface organometallic chemistry,
+S0015-C01,S0015,Ga48Pt/SiO2,Pt-Ga,Ga:3.63;Pt:0.21,measured,SiO2,SCALMS (Ga-rich liquid GaPt alloy on porous support),
+S0015-C02,S0015,Ga49Pt/Al2O3,Pt-Ga,Ga:2.11;Pt:0.12,measured,Al2O3,SCALMS (Ga-rich liquid GaPt alloy on porous support),
+S0015-C03,S0015,Ga41Pt/SiC,Pt-Ga,Ga:2.21;Pt:0.15,measured,SiC,SCALMS (Ga-rich liquid GaPt alloy on porous support),
+S0016-C01,S0016,CoOx@S-1-M,Co,Co:5,nominal,"silicalite-1 (CoOx near crystal edge, wet impregnation)",,
+S0016-C02,S0016,CoOx@S-1-U,Co,Co:5,nominal,"silicalite-1 (CoOx spread through crystal, ultrasound-assisted)",,
+S0016-C03,S0016,CoOx/SiO2,Co,Co:5,nominal,SiO2,,
+S0017-C01,S0017,Pt/Al2O3 + MWCNT-COOH washcoat on cordierite monolith,Pt,Pt:3.1,nominal,Al2O3 washcoat with 6.5 wt% COOH-functionalised multi-walled carbon nanotubes (RF susceptor) on cordierite monolith,"commercial 5 wt% Pt/Al2O3 mixed with alumina and MWCNT-COOH (3.1 wt% Pt in washcoat solids), dip-coated 3x",20% H2/Ar
